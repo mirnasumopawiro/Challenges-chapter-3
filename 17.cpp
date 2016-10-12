@@ -10,8 +10,8 @@
 
 #include <iostream>
 #include <string>
-#include <cstdlib>//for random
-#include <ctime>//for time
+#include <cstdlib>
+#include <ctime>
 #include <iomanip>
 
 using namespace std;
@@ -37,10 +37,11 @@ int main()
     
     if (total == num1+num2)
     {
-        cout << "true" << endl;
-    }else
+        cout << "You are correct" << endl;
+    }
+    else
     {
-        cout << "wrong answer, the answer is " << num1+num2 << endl;
+        cout << "Wrong answer, the answer is: " << total << endl;
     }
     
     return 0;
